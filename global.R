@@ -13,7 +13,7 @@ suppressPackageStartupMessages(library("shinythemes"))
 suppressPackageStartupMessages(library("readr"))
 suppressPackageStartupMessages(library("plot3D"))
 suppressPackageStartupMessages(library("scatterplot3d"))
-suppressPackageStartupMessages(library("chemCal"))
+
 
 # set color scheme
 okabe_ito = palette("Okabe-Ito")
