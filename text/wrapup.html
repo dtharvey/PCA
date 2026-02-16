@@ -1,0 +1,57 @@
+
+
+
+<div id="how-pca-changes-the-data-cloud" class="section level4">
+<h4>How PCA Changes the Data Cloud</h4>
+<p>The emphasis of this learning module is visualizing the process by
+which a large data set with many measurement dimensions (the original
+axes) is reduced to a much smaller data set that has fewer dimensions.
+We used a data set with 205 samples arrayed in three dimensions—which we
+described as a data cloud—and located PC1, PC2, and PC3 by rotating the
+data cloud until we identified three mutually perpendicular axes that
+seemed to account for most of the variability in the samples. Although
+we described the process as a reduction in dimensionality in which we
+reduced the data set’s shape from a three-dimensional ellipsoid, to a
+two-dimensional ellipse, and to a one-dimensional line, we did not show
+that this is indeed what happens. The figure on the upper right
+illustrates how this works. The data cloud begins as an ellipsoid in
+three dimensions and the first principal component axis. The figure on
+the lower right shows that the data cloud becomes a two-dimensional
+ellipse when the data cloud is projected onto the two-dimensional plane
+that is perpendicular to PC1. This is the meaning of reducing
+dimensionality.</p>
+</div>
+<div id="is-this-really-how-a-principal-component-analysis-is-accomplished" class="section level4">
+<h4>Is This Really How a Principal Component Analysis is
+Accomplished?</h4>
+<p>No. Although a PCA analysis involves rotating the axes and finding
+scores—and loadings (see below)—a PCA analysis accomplishes this through
+the application of a quantitative algorithm that relies on matrix
+algebra. The details of this are beyond the scope of this learning
+module. For an introduction to PCA, see the <code>R</code> package
+LearnPCA, which provides a series of vignettes that explain PCA starting
+from basic concepts. Portions of the <code>R</code> code in this package
+were modified for use in this learning module. <a href="https://bryanhanson.github.io/LearnPCA/">Hanson B, Harvey D
+(2024). LearnPCA: Functions, Data Sets and Vignettes to Aid in Learning
+Principal Components Analysis (PCA). R package version 0.3.4</a></p>
+</div>
+<div id="loadings-there-is-more-to-pca-than-scores" class="section level4">
+<h4>Loadings (there is more to PCA than scores)</h4>
+<p>Each sample’s set of scores show the sample’s location on each of the
+principal component axes. Scores are important because they help
+determine the number of principal component axes to keep (see LearnPCA).
+To fully model the original data, we also have to know the location of
+the principal component axes relative to the original axes. These are
+given by the angles between the axes; the cosines of these angles are
+called the loadings). Although not considered in this learning module,
+loadings are obtained from the same mathematical algorithm that gives
+the scores; see LearnPCA for more information on loadings.</p>
+</div>
+<div id="additional-resources" class="section level4">
+<h4>Additional Resources</h4>
+<p>For another introduction to PCA see Chapter 11.3 and 11.6 in <a href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Chemometrics_Using_R_(Harvey)">Chemometrics
+Using R</a>, which is available through the <a href="https://libretexts.org/">LibreText Project</a>.</p>
+<p>Another useful resource is <em>Chemometrics: A Practical Guide</em>
+by Kenneth R. Beebe, Randy J. Pell and Mary Beth Seasholtz. Wiley, New
+York, 1998. ISBN 0-471-12451-6.</p>
+</div>

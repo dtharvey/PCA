@@ -1,0 +1,17 @@
+---
+title: "activity2"
+output: html_fragment
+---
+The data on the previous tab are not aligned with the $x$-, $y$-, and $z$-axes, which means the original axes are not the simplest model of the data. The goal of a principal component analysis is to find a new set of axes that best model the data. To find these axes we rotate the original axes in space. If we begin with three mutually orthogonal axes then we will end with three new axes that are mutually orthogonal.
+
+**Exercise 1**. The first principal component axis, PC1, accounts for the most variability in the data. Each subsequent principal component axis accounts for the next most variability in the data. When you compare two axes, how might you decide which accounts for more of the data's variability?
+
+**Exercise 2**. Leave the axis labels unchecked so they are not visible. Rotate the data and describe the path PC1 takes through the data. Check your answer by displaying the axis labeled PC1. 
+
+**Exercise 3**. To find the second principal component axis, PC2, adjust your view of the data so you are looking straight down the PC1 axis. The second principal component axis accounts for the greatest variability in this view of the data. Describe the path that PC2 takes through the data. Check your answer by displaying the axis labeled PC2.
+
+**Exercise 4**. To find the last principal component axis, PC3, adjust your view of the data so that the PC1 and PC2 axes completely overlap each other. Describe the path that PC3 takes through the data. Check your answer by displaying the axis labeled PC3.
+
+**Exercise 5**. Of PC1, PC2, and PC3, which primarily contains information about the signal and which primarily contains information about the noise?
+
+**Exercise 6**. The shape of the original data---which we might call a data cloud---is a three-dimensional ellipsoid. What is the shape of the data cloud when reduced to two dimensions? What is the shape of the data cloud when reduced to one dimension?
