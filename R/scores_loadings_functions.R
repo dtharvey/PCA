@@ -1,8 +1,5 @@
 # function to generate data for scores and loading vignette
 
-library(plotrix)
-library(latex2exp)
-
 generate_data = function(x_center = 0, y_center = 0, angle = 30, 
                          x_range = 10, y_range = 2, size = 10, 
                          seed = 13, show_plot = FALSE){

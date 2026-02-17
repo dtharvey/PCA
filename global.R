@@ -3,16 +3,7 @@
 # packages to load
 library(shiny)
 library(shinythemes)
-library(plotrix)
-library(latex2exp)
 library(plotly)
-
-suppressPackageStartupMessages(library("knitr"))
-suppressPackageStartupMessages(library("shiny"))
-suppressPackageStartupMessages(library("shinythemes"))
-suppressPackageStartupMessages(library("readr"))
-suppressPackageStartupMessages(library("plot3D"))
-suppressPackageStartupMessages(library("scatterplot3d"))
 
 
 # set color scheme
